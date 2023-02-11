@@ -1,5 +1,5 @@
 # AJ-F2-FEB-Contest-1
-Problem Statement
+Problem Statement:
 Given an array of student objects and 5 functions in the script.js file, write code to perform the following tasks:
 
 Array of student objects
