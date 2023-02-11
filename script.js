@@ -8,11 +8,20 @@ let arr = [
 
 function PrintStudentswithMap() {
   //Write your code here , just console.log
+ arr.map(function(student) {
+    console.log("Output from map", student);
+});
 }
+PrintStudentswithMap()
 
 function PrintStudentsbyForEach() {
   //Write your code here , just console.log
+  function logvalues(value) {
+    console.log(value);
 }
+  arr.forEach(logvalues);
+}
+PrintStudentsbyForEach()
 
 function addData() {
   //Write your code here, just console.log
