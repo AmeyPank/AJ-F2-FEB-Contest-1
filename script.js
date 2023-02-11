@@ -8,7 +8,7 @@ let arr = [
 
 function PrintStudentswithMap() {
   //Write your code here , just console.log
-  let names = arr.filter(stu => stu.marks > 50).map(stu);
+  let names = arr.filter(stu => stu.marks > 50);
   console.log("From map");
   console.log(names)
 }
