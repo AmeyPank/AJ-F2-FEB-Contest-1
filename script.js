@@ -8,7 +8,7 @@ let arr = [
 
 function PrintStudentswithMap() {
   //Write your code here , just console.log
-  let names = arr.filter(stu => stu.marks > 50);
+  let names = arr.filter(stu => stu.marks > 50).map(stu);
   console.log("From map");
   console.log(names)
 }
@@ -34,18 +34,19 @@ addData()
 
 function removeFailedStudent() {
   //Write your code here, just console.log
-  arr.splice(2, 2);
-  console.log("From remove");
-  console.log(arr)
+  let names = arr.filter(stu => stu.marks > 50);
+  console.log("From Remove");
+  console.log(names)
+
   
 }
 removeFailedStudent()
 
 
 let arr1 = [
-  { id: 4, name: "joe", age: "19", marks: 90 },
-  { id: 5, name: "mark", age: "21", marks: 95 },
-  { id: 6, name: "james", age: "26", marks: 55 },
+  { id: 5, name: "joe", age: "19", marks: 90 },
+  { id: 6, name: "mark", age: "21", marks: 95 },
+  { id: 7, name: "james", age: "26", marks: 55 },
 ];
 function concatenateArray() {
   //Write your code here, just console.log
