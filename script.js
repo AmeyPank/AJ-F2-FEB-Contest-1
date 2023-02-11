@@ -34,9 +34,10 @@ addData()
 
 function removeFailedStudent() {
   //Write your code here, just console.log
-  let names = arr.pop(stu => stu.marks < 50);
+  arr.splice(2, 2);
   console.log("From remove");
-  console.log(names)
+  console.log(arr)
+  
 }
 removeFailedStudent()
 
